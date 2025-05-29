@@ -1,0 +1,23 @@
+
+h1 {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h2 {
+
+    text-align: justify;
+    
+}
+
+body {
+
+    background-color: blanchedalmond;
+}
+
+table {
+
+    border: 10px solid #000000;
+}

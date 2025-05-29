@@ -5,20 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="pag3.css">
 </head>
 <body>
     <h1>Simule seu Financiamento</h1>
 
-    <ul>
-        <li><a href="pagina1.html">Início</a></li>
-        <li><a href="pagina2.html">Veículos</a></li>
-        <li><a href="pagina3.html">Financiamento</a></li>
-        <li><a href="pagina4.html">Contatos</a></li>
-    </ul>
-
-    <h2>Preencha para simular</h2>
+    
 
     <form action="#" method="post" autocomplete="on">
+
+        <fieldset>
+            <legend>Preencha para simular</legend><br>
         <label for="nome">Nome completo:</label><br>
         <input type="text" id="nome" placeholder="seu nome completo" maxlength="150" required><br><br>
 
@@ -40,12 +38,18 @@
             <option value="60">60x</option>
         </select><br><br>
 
+        </fieldset><br>
+
         <button type="submit">Simular Financiamento</button>
         <button type="reset">Limpar</button>
 
     </form>
 
-    <p class="nota-form">Entraremos em contato com as melhores propostas de financiamento!</p>
+    <p>Entraremos em contato com as melhores propostas de financiamento!</p>
+
+    <h2 class="proxima"><ul>
+        <li><a href="pagina4.html">Para mais informação entre em contato com a gente por aqui!</a></li>
+    </ul></h2>
 
     <p>&copy; 2025 Concessionária Alpha. Todos os direitos reservados.</p>
 </body>
