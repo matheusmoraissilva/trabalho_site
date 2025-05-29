@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simule seu Financiamento</h1>
+
+    <ul>
+        <li><a href="pagina1.html">Início</a></li>
+        <li><a href="pagina2.html">Veículos</a></li>
+        <li><a href="pagina3.html">Financiamento</a></li>
+        <li><a href="pagina4.html">Contatos</a></li>
+    </ul>
+
+    <h2>Preencha para simular</h2>
+
+    <form action="#" method="post" autocomplete="on">
+        <label for="nome">Nome completo:</label><br>
+        <input type="text" id="nome" placeholder="seu nome completo" maxlength="150" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" placeholder="Digite seu email" required><br><br>
+
+        <label for="valor-veiculo">Valor do Veículo:</label><br>
+        <input type="number" id="valor-veiculo" min="10000" step="1000" required><br><br>
+
+        <label for="entrada">Valor de entrada (R$):</label><br>
+        <input type="number" id="entrada" min="0" step="500" required><br><br>
+
+        <label for="parcelas">Número de Parcelas:</label>
+        <select name="parcelas" id="parcelas">
+            <option value="12">12x</option>
+            <option value="24">24x</option>
+            <option value="36">36x</option>
+            <option value="48">48x</option>
+            <option value="60">60x</option>
+        </select><br><br>
+
+        <button type="submit">Simular Financiamento</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+    <p class="nota-form">Entraremos em contato com as melhores propostas de financiamento!</p>
+
+    <p>&copy; 2025 Concessionária Alpha. Todos os direitos reservados.</p>
+</body>
+</html>
