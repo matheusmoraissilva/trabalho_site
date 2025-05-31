@@ -9,48 +9,70 @@
     <link rel="stylesheet" href="pag3.css">
 </head>
 <body>
-    <h1>Simule seu Financiamento</h1>
+    <h1>Tabela de Financiamento</h1>
 
     
+            <table border="1" align="center">
+                <thead>
+                    <tr>
+                        <th>Modelo do Veículo</th>
+                        <th>Valor do Veículo</th>
+                        <th>Valor de Entrada</th>
+                        <th>Valor Financiado</th>
+                        <th>Parcelas</th>
+                        <th>Valor da Parcelas</th>
+                        <th>Total Financiado</th>
+                    </tr>
+                </thead>
 
-    <form action="#" method="post" autocomplete="on">
+                <tbody>
+                    <tr>
+                        <td>Carro Popular</td>
+                        <td>R$ 60.000,00</td>
+                        <td>R$ 12.000,00</td>
+                        <td>R$ 48.000,00</td>
+                        <td>48x</td>
+                        <td>R$ 1.272,36</td>
+                        <td>R$ 61.073,28</td>
+                    </tr>
 
-        <fieldset>
-            <legend>Preencha para simular</legend><br>
-        <label for="nome">Nome completo:</label><br>
-        <input type="text" id="nome" placeholder="seu nome completo" maxlength="150" required><br><br>
+                    <tr>
+                        <td>Sedan Médio</td>
+                        <td>R$ 100.000,00</td>
+                        <td>R$ 20.000,00</td>
+                        <td>R$ 80.000,00</td>
+                        <td>60x</td>
+                        <td>R$ 1.774,90</td>
+                        <td>R$ 106.494,00</td>
+                    </tr>
 
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email" placeholder="Digite seu email" required><br><br>
+                    <tr>
+                        <td>SUV Compacto</td>
+                        <td>R$ 130.000,00</td>
+                        <td>R$ 30.000,00</td>
+                        <td>R$ 100.000,00</td>
+                        <td>36x</td>
+                        <td>R$ 3.322,04</td>
+                        <td>R$ 119.593,44</td>
+                    </tr>
 
-        <label for="valor-veiculo">Valor do Veículo:</label><br>
-        <input type="number" id="valor-veiculo" min="10000" step="1000" required><br><br>
 
-        <label for="entrada">Valor de entrada (R$):</label><br>
-        <input type="number" id="entrada" min="0" step="500" required><br><br>
+                    <tfoot>
+                    <tr>
+                        <th colspan="7">Os valores apresentados são exemplos de simulação e podem não corresponder a condições reais de mercado.</th>
+                    </tr>
+                    </tfoot>
 
-        <label for="parcelas">Número de Parcelas:</label>
-        <select name="parcelas" id="parcelas">
-            <option value="12">12x</option>
-            <option value="24">24x</option>
-            <option value="36">36x</option>
-            <option value="48">48x</option>
-            <option value="60">60x</option>
-        </select><br><br>
+                </tbody>
 
-        </fieldset><br>
+            </table><br>
 
-        <button type="submit">Simular Financiamento</button>
-        <button type="reset">Limpar</button>
-
-    </form>
-
-    <p>Entraremos em contato com as melhores propostas de financiamento!</p>
 
     <h2 class="proxima"><ul>
         <li><a href="pagina4.html">Para mais informação entre em contato com a gente por aqui!</a></li>
     </ul></h2>
 
     <p>&copy; 2025 Concessionária Alpha. Todos os direitos reservados.</p>
+
 </body>
 </html>

@@ -9,3 +9,21 @@ h2 {
      text-align: justify;
 }
 
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #747171; 
+    color: #fffdfd;
+}
+
+body {
+
+    background-color:bisque
+}
